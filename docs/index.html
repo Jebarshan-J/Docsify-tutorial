@@ -7,7 +7,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/core.min.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/vue.min.css">
-  
+  <style>
+  .markdown-section {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 30px 40px !important;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.markdown-section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+  .markdown-section {
+    max-width: 900px;
+  }
+
+  h1 {
+    color: #3d5dee;
+  }
+</style>
 </head>
 <body>
   <div id="app"></div>
@@ -16,8 +39,9 @@
     name: 'Ordinal Campus',
     repo: '',
     loadSidebar: true,
-    themeColor: '#4B0082',
+    themeColor: '#3d5dee',
   }
+
 </script>
   <!-- Docsify resource -->
   <script src="//cdn.jsdelivr.net/npm/docsify@5"></script>
